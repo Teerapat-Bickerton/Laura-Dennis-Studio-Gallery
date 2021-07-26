@@ -8,6 +8,8 @@ body {
     border: none;
 }
 
+/* Header */
+
 /* Copied some code from https://www.w3schools.com/howto/howto_css_full_page.asp */
 #landing-image {
     height: 900px;
@@ -16,4 +18,10 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-}        
+}    
+
+#logo-link {
+    height: 150px;
+    width: 150px;
+    float: left;
+}
