@@ -15,10 +15,10 @@ body {
 
 /* Copied some code from https://www.w3schools.com/howto/howto_css_full_page.asp */
 #landing-image {
-    height: 900px;
+    height: 1050px;
     width: 100%;
-    background: url(../images/Landing\ image.jpg);
-    background-position: center center;
+    background: url(../images/Landing\ image\ 1.jpg);
+    background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
 }    
@@ -29,6 +29,7 @@ body {
     height: 150px;
     width: 150px;
     float: left;
+    z-index: 1;
 }
 
 #menu {
@@ -46,17 +47,25 @@ body {
 
 #menu a {
     text-decoration: none;
-    color: #FFFFFF;
+    color: #545C5C;
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #FFFFFF
+    border-bottom: 1px solid #545C5C;
+    font-weight: 500;
 }
 
 .active {
-    border-bottom: 1px solid #FFFFFF;
+    border-bottom: 1px solid #545C5C;
 }
 
 #logo-link:hover {
     opacity: 0.6;
 }
+
+#header-banner {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(250, 248, 255, .8);
+}
+
