@@ -48,6 +48,7 @@ body {
 #menu a {
     text-decoration: none;
     color: #545C5C;
+    text-transform: lowercase;
 }
 
 #menu a:hover {
