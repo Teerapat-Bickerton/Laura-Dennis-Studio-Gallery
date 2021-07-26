@@ -23,8 +23,40 @@ body {
     background-size: cover;
 }    
 
+/* Navigation Links */
+
 #logo-link {
     height: 150px;
     width: 150px;
     float: left;
+}
+
+#menu {
+    font-size: 120%;
+    letter-spacing: 4px;
+    float: right;
+    line-height: 150px;
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #FFFFFF
+}
+
+.active {
+    border-bottom: 1px solid #FFFFFF;
+}
+
+#logo-link:hover {
+    opacity: 0.6;
 }
