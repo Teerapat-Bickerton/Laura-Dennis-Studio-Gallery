@@ -1,3 +1,19 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* Copied some code from https://www.w3schools.com/howto/howto_css_full_page.asp */
+#landing-image {
+    height: 900px;
+    width: 100%;
+    background: url(../images/Landing\ image.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}        
