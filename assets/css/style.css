@@ -218,11 +218,35 @@ footer {
         height: 225px;
     }
 
-        #aesthetic-ethos-gallery {
+    #aesthetic-ethos-gallery {
         width: 600px;
     }
 
     #ethos-images > img {
-        border: 20px solid transparent;    
+        border: 20px solid transparent; 
+        margin: 0 20px;   
+    }
+
+    #opening-times {
+        left: 0;
+    }     
+}
+
+/* For medium to smaller screen sizes from 600px and down */
+@media screen and (max-width: 600px) {
+    #header-banner {
+        height: 250px;
+    }
+    
+    #aesthetic-ethos-gallery {
+        width: 450px;
+    }
+
+    #ethos-images {
+        column-count: 1;
+    }
+
+    #ethos-images > img {
+        border: 10px solid transparent; 
     }
 }
