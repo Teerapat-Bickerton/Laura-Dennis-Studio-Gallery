@@ -27,12 +27,12 @@ body {
 }    
 
 #opening-times h2 {
-    color: rgb(230, 240, 240);
+    color: rgb(220, 240, 240);
     font-family: Source Sans Pro, Helvetica, sans-serif;
 }
 
 #opening-times h3 {
-    color: rgb(230, 240, 240);
+    color: rgb(220, 240, 240);
     font-family: Roboto, Helvetica, sans-serif;
     font-weight: 100;
     line-height: 20px;
@@ -83,7 +83,7 @@ body {
 #header-banner {
     width: 100%;
     height: 150px;
-    background-color: rgb(230, 240, 240, .7);
+    background-color: rgb(220, 240, 240, .7);
     box-shadow: 0 0 10px #000000;
 }
 
@@ -108,24 +108,20 @@ body {
 /* Aesthetic ethos gallery */
 
 #gallery-container {
-    padding-top: 30px;
     width: 100%;
     height: auto;
-
-    background-color: seagreen;
+    background-color: rgb(220, 240, 240);
 }
 
 #aesthetic-ethos-gallery {
-    padding-top: 30px;
+    padding-top: 150px;
     width: 1200px;
     height: auto;
     margin: 0 auto;
-
-    background-color: skyblue;
+    background-color: rgb(220, 240, 240);
 }
 
 #ethos-images {
-    line-height: 10px;
     column-count: 3;
     column-gap: 0;
 }
