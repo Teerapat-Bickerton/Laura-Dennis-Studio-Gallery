@@ -258,7 +258,7 @@ footer {
     
     #artworks-images {
         width: 450px;   
-
+    }    
 }
 
 /* For smaller screen sizes from 450px and down */
@@ -286,4 +286,5 @@ footer {
 
     #artworks-images {
         width: 350px;
+    }        
 }
