@@ -111,6 +111,7 @@ body {
     width: 100%;
     height: auto;
     background-color: rgb(225, 240, 240, .7);
+    /* background-color: tomato; */
 }
 
 #aesthetic-ethos-gallery {
@@ -119,6 +120,7 @@ body {
     height: auto;
     margin: 0 auto;
     background-color: rgb(225, 240, 240, .7);
+    /* background-color: turquoise; */
 }
 
 #ethos-images {
@@ -224,7 +226,7 @@ footer {
 
     #ethos-images > img {
         border: 20px solid transparent; 
-        margin: 0 20px;   
+        margin: 0 20px;
     }
 
     #opening-times {
@@ -247,6 +249,38 @@ footer {
     }
 
     #ethos-images > img {
-        border: 10px solid transparent; 
+        /* border: 10px solid transparent;
+        margin: 0 20px; */
+        /* copied this from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_center */
+        display: block;
+        margin-left: auto;
+        margin-right: auto;  
+    }    
+    
+        
+
+}
+
+/* For smaller screen sizes from 450px and down */
+@media screen and (max-width: 450px) {
+    #opening-times {
+        font-size: 70%;
+        letter-spacing: 2px;
+        width: 350px;
+    }
+    
+    #aesthetic-ethos-gallery {
+        width: 350px;
+    }
+
+    #ethos-images > img {
+        /* border: 10px solid transparent;  */
+        /* width: 90%; */
+        /* margin: 0 auto;
+        border: 0;
+        width: 90%; */
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
