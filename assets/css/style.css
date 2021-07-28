@@ -202,3 +202,27 @@ footer {
     }
     
 }
+
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+    #menu {
+        clear: left;
+        float: left;
+        padding-top: 30px;    
+        margin-left: 30px;
+        margin-bottom: 30px;
+        line-height: 25px;
+    }
+
+    #header-banner {
+        height: 225px;
+    }
+
+        #aesthetic-ethos-gallery {
+        width: 600px;
+    }
+
+    #ethos-images > img {
+        border: 20px solid transparent;    
+    }
+}
